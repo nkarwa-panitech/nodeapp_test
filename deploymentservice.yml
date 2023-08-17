@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: nkarwapanitech/panitech-class-docker:$docker_tag
+        image: nkarwapanitech/panitech-class-docker:docker_tag
         ports:
         - containerPort: 3000
         imagePullPolicy: Always
