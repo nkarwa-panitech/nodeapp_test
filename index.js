@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-    res.send('{ "response": "Hello From Panitech" }');
+    res.send('{ "response": "Hello From Panitech Academy" }');
 });
 
 app.get('/will', function (req, res) {
